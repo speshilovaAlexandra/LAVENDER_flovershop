@@ -7,6 +7,16 @@
     {
       "source": "/(.*)",
       "destination": "/"
+    },
+    {
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "framework": "vite",
+  "build": {
+    "env": {
+      "NODE_VERSION": "20.19.0"
     }
+  }
+}
   ]
 }
